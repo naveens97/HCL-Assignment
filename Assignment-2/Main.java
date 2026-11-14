@@ -14,6 +14,6 @@ public class Main {
             double overdraftLimit=scan.nextDouble();
             account=new CurrentAccount(accountNumber, balance, overdraftLimit);
         }
-        System.out.println(account.calculateFinalBalance());
+        System.out.printf("%.2f",account.calculateFinalBalance());
     }
 }
